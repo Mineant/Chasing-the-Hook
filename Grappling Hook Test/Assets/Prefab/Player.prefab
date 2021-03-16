@@ -1593,7 +1593,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101
-        actionIsOpen: 0001
+        actionIsOpen: 0101
         actionStartIndex: 0000000006000000
         actionHashCodes: beb33100beb33100
         unityObjectParams: []
@@ -2231,7 +2231,7 @@ MonoBehaviour:
         customNames:
         - 
         actionEnabled: 01
-        actionIsOpen: 00
+        actionIsOpen: 01
         actionStartIndex: 00000000
         actionHashCodes: d3bd7b05
         unityObjectParams: []
@@ -7221,7 +7221,7 @@ MonoBehaviour:
         customNames:
         - 
         actionEnabled: 01
-        actionIsOpen: 00
+        actionIsOpen: 01
         actionStartIndex: 00000000
         actionHashCodes: ee20bc00
         unityObjectParams: []
@@ -8703,7 +8703,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101
-        actionIsOpen: 00000000
+        actionIsOpen: 01000000
         actionStartIndex: 00000000100000001400000019000000
         actionHashCodes: 8462fc0234b46c041565620548c01101
         unityObjectParams: []
@@ -11201,7 +11201,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 000101010101
-        actionIsOpen: 000000000001
+        actionIsOpen: 010101010101
         actionStartIndex: 0000000004000000060000000f0000001200000017000000
         actionHashCodes: 5e69bb045ac85204686a3905bbee8e03b2cf1000d3bd7b05
         unityObjectParams: []
