@@ -44,3 +44,4 @@ MonoBehaviour:
   - killPlayers
   - StartKillPlayers
   - StopKillPlayers
+  - playerIsGrappled
