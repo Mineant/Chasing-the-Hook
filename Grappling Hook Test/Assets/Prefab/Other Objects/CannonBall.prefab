@@ -251,7 +251,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 6
+          value: 10
         - useVariable: 0
           name: 
           tooltip: 
@@ -491,7 +491,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 3
+          value: 2.5
         - useVariable: 1
           name: ballSpeed
           tooltip: 
@@ -1446,8 +1446,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.4552042, y: 1.2491112, z: 2.6611724}
-  m_Center: {x: 0.036738753, y: -0.07108784, z: 0.021190882}
+  m_Size: {x: 1.3584052, y: 0.71684265, z: 2.6611724}
+  m_Center: {x: 0.017986476, y: -0.3372221, z: 0.021190882}
 --- !u!114 &3611381430519296648
 MonoBehaviour:
   m_ObjectHideFlags: 0

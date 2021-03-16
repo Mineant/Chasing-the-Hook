@@ -674,10 +674,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: 800cd8a5-9ac3-45ce-b0da-5d2914128a76
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: Grappling Hook Test (1)
+  organizationId: kawaiianthony
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
