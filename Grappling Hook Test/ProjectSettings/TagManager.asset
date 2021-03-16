@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - X Ground
   - Boundary
+  - Traps
   layers:
   - Default
   - TransparentFX

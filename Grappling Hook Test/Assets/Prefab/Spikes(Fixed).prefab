@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 1988372136099462699}
   m_Layer: 2
   m_Name: Spikes(Fixed)
-  m_TagString: Untagged
+  m_TagString: Traps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
