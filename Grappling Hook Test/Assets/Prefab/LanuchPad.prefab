@@ -622,7 +622,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101010101
-        actionIsOpen: 0000000001
+        actionIsOpen: 0100000001
         actionStartIndex: 00000000030000000a0000000e00000012000000
         actionHashCodes: 9845b3055552ad059f6463029f646302dfd72a04
         unityObjectParams: []
@@ -671,7 +671,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 40
+          value: 30
         - useVariable: 1
           name: padXScale
           tooltip: 
