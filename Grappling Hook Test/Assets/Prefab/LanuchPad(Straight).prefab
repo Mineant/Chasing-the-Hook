@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 613879813211329720}
   - component: {fileID: 613879813211329721}
   - component: {fileID: 613879813211329735}
+  - component: {fileID: 8857408514738097721}
   m_Layer: 0
   m_Name: LanuchPad(Straight)
   m_TagString: Untagged
@@ -71,8 +72,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 60.992188
-        y: 157.04688
+        x: 62.273438
+        y: 151.75
         width: 110
         height: 32
       isBreakpoint: 0
@@ -242,7 +243,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1.5
+          value: 1
         - useVariable: 0
           name: 
           tooltip: 
@@ -521,8 +522,8 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SetFloatValue
         - HutongGames.PlayMaker.Actions.GetScale
         - HutongGames.PlayMaker.Actions.MathExpression
-        - HutongGames.PlayMaker.Actions.SetVector3XYZ
         - HutongGames.PlayMaker.Actions.MathExpression
+        - HutongGames.PlayMaker.Actions.SetVector3XYZ
         customNames:
         - 
         - 
@@ -530,9 +531,9 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101010101
-        actionIsOpen: 0000000000
-        actionStartIndex: 00000000030000000a0000000e00000014000000
-        actionHashCodes: 9845b3055552ad059f646302dfd72a049f646302
+        actionIsOpen: 0000000001
+        actionStartIndex: 00000000030000000a0000000e00000012000000
+        actionHashCodes: 9845b3055552ad059f6463029f646302dfd72a04
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -562,7 +563,9 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: padXScale * 2
+          value: 'padXScale * 0.5
+
+'
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -604,12 +607,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
         - useVariable: 1
           name: padXScale
           tooltip: 
@@ -624,6 +621,12 @@ MonoBehaviour:
           value: 0
         - useVariable: 1
           name: padXScale
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -671,7 +674,7 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0f0000000f00000001000000140000001c0000000f0000000f0000000f0000000700000001000000120000000f00000010000000010000001c0000001c0000000f0000000f0000000f00000001000000120000000f0000001000000001000000
+        paramDataType: 0f0000000f00000001000000140000001c0000000f0000000f0000000f0000000700000001000000120000000f0000001000000001000000120000000f00000010000000010000001c0000001c0000000f0000000f0000000f00000001000000
         paramName:
         - floatVariable
         - floatValue
@@ -687,18 +690,18 @@ MonoBehaviour:
         - storeResultAsFloat
         - storeResultAsInt
         - everyFrame
+        - expression
+        - storeResultAsFloat
+        - storeResultAsInt
+        - everyFrame
         - vector3Variable
         - vector3Value
         - x
         - y
         - z
         - everyFrame
-        - expression
-        - storeResultAsFloat
-        - storeResultAsInt
-        - everyFrame
-        paramDataPos: 000000000100000000000000000000000000000002000000030000000400000001000000050000000000000005000000000000000600000001000000020000000600000007000000080000000700000001000000090000000100000008000000
-        paramByteDataSize: 000000000000000001000000000000000000000000000000000000000000000004000000010000000000000000000000000000000100000000000000000000000000000000000000000000000100000000000000000000000000000001000000
+        paramDataPos: 000000000100000000000000000000000000000002000000030000000400000001000000050000000000000005000000000000000600000001000000060000000100000007000000010000000200000007000000080000000900000008000000
+        paramByteDataSize: 000000000000000001000000000000000000000000000000000000000000000004000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000000000000000000001000000
     - name: State 1
       description: 
       colorIndex: 0
@@ -781,7 +784,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.01
+          value: 0.1
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -841,7 +844,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101
-        actionIsOpen: 010000
+        actionIsOpen: 000000
         actionStartIndex: 00000000090000000e000000
         actionHashCodes: febdb4011cc916029bd6f801
         unityObjectParams: []
@@ -925,12 +928,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: explosionForce
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 50
+          value: 0
         - useVariable: 1
           name: 
           tooltip: 
@@ -1447,6 +1450,22 @@ MonoBehaviour:
   preFillAudioClipList: []
   preFillByteList: 
   preFillSpriteList: []
+--- !u!54 &8857408514738097721
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613879813211329734}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &613879813650209109
 GameObject:
   m_ObjectHideFlags: 0
@@ -1552,6 +1571,7 @@ GameObject:
   - component: {fileID: 613879814655287386}
   - component: {fileID: 613879814655287387}
   - component: {fileID: 613879814655287384}
+  - component: {fileID: 2150487714518856510}
   m_Layer: 0
   m_Name: Pad
   m_TagString: Untagged
@@ -1567,7 +1587,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 613879814655287385}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.76, z: 0}
+  m_LocalPosition: {x: 0, y: 0.6, z: 0}
   m_LocalScale: {x: 3.4326, y: 0.17065093, z: 3.4326}
   m_Children: []
   m_Father: {fileID: 613879813211329723}
@@ -1633,3 +1653,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &2150487714518856510
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613879814655287385}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
