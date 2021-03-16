@@ -559,8 +559,8 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 00010001
-        actionIsOpen: 00000001
+        actionEnabled: 00010101
+        actionIsOpen: 00000101
         actionStartIndex: 00000000060000000d00000010000000
         actionHashCodes: beb331005552ad059845b305d3bd7b05
         unityObjectParams: []
@@ -594,14 +594,14 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
-        - ownerOption: 0
+        - ownerOption: 1
           gameObject:
             useVariable: 0
             name: 
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 0}
+            value: {fileID: 5115623177426631263}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -655,7 +655,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 2
+          value: 1.01
         - useVariable: 1
           name: playerScale
           tooltip: 

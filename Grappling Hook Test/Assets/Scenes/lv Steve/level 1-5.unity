@@ -5842,6 +5842,7 @@ GameObject:
   - component: {fileID: 577662255}
   - component: {fileID: 577662254}
   - component: {fileID: 577662253}
+  - component: {fileID: 577662257}
   m_Layer: 8
   m_Name: Cube (18)
   m_TagString: Ground
@@ -6140,6 +6141,19 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!65 &577662257
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577662251}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1.25, y: 5, z: 1.0000002}
+  m_Center: {x: -0.125, y: -24.5, z: -0.5000006}
 --- !u!1001 &608479552
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13456,7 +13470,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh37134
+  m_Name: pb_Mesh87078
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
