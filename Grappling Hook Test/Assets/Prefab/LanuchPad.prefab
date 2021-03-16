@@ -281,7 +281,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01000101
-        actionIsOpen: 00000001
+        actionIsOpen: 01000001
         actionStartIndex: 000000000d000000160000001d000000
         actionHashCodes: 600c1604febdb4015552ad05bc338a03
         unityObjectParams: []
@@ -429,12 +429,12 @@ MonoBehaviour:
           value: 0
         fsmVector2Params: []
         fsmVector3Params:
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: tween
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {x: 0, y: 5, z: 0}
+          value: {x: 0, y: 0, z: 0}
         - useVariable: 1
           name: 
           tooltip: 
@@ -614,15 +614,17 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.GetScale
         - HutongGames.PlayMaker.Actions.MathExpression
         - HutongGames.PlayMaker.Actions.MathExpression
+        - HutongGames.PlayMaker.Actions.SetVector3XYZ
         customNames:
         - 
         - 
         - 
         - 
-        actionEnabled: 01010101
-        actionIsOpen: 01000000
-        actionStartIndex: 00000000030000000a0000000e000000
-        actionHashCodes: 9845b3055552ad059f6463029f646302
+        - 
+        actionEnabled: 0101010101
+        actionIsOpen: 0000000001
+        actionStartIndex: 00000000030000000a0000000e00000012000000
+        actionHashCodes: 9845b3055552ad059f6463029f646302dfd72a04
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -700,6 +702,24 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: padXScale
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmIntParams:
         - useVariable: 1
           name: 
@@ -722,16 +742,28 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: tween
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0000000000000000
+        byteData: 000000000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0f0000000f00000001000000140000001c0000000f0000000f0000000f0000000700000001000000120000000f0000001000000001000000120000000f0000001000000001000000
+        paramDataType: 0f0000000f00000001000000140000001c0000000f0000000f0000000f0000000700000001000000120000000f0000001000000001000000120000000f00000010000000010000001c0000001c0000000f0000000f0000000f00000001000000
         paramName:
         - floatVariable
         - floatValue
@@ -751,8 +783,14 @@ MonoBehaviour:
         - storeResultAsFloat
         - storeResultAsInt
         - everyFrame
-        paramDataPos: 000000000100000000000000000000000000000002000000030000000400000001000000050000000000000005000000000000000600000001000000060000000100000007000000
-        paramByteDataSize: 000000000000000001000000000000000000000000000000000000000000000004000000010000000000000000000000000000000100000000000000000000000000000001000000
+        - vector3Variable
+        - vector3Value
+        - x
+        - y
+        - z
+        - everyFrame
+        paramDataPos: 000000000100000000000000000000000000000002000000030000000400000001000000050000000000000005000000000000000600000001000000060000000100000007000000010000000200000007000000080000000900000008000000
+        paramByteDataSize: 000000000000000001000000000000000000000000000000000000000000000004000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000000000000000000001000000
     events:
     - name: launch player
       isSystemEvent: 0
@@ -786,6 +824,12 @@ MonoBehaviour:
         showInInspector: 0
         networkSync: 0
         value: {x: 0, y: 0, z: 0}
+      - useVariable: 1
+        name: tween
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {x: 0, y: 0, z: 0}
       colorVariables: []
       rectVariables: []
       quaternionVariables: []
@@ -803,7 +847,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
