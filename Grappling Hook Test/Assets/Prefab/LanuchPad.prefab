@@ -671,7 +671,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 30
+          value: 20
         - useVariable: 1
           name: padXScale
           tooltip: 

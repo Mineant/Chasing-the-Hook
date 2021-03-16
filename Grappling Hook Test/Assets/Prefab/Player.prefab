@@ -560,7 +560,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 00010001
-        actionIsOpen: 00000101
+        actionIsOpen: 00000001
         actionStartIndex: 00000000060000000d00000010000000
         actionHashCodes: beb331005552ad059845b305d3bd7b05
         unityObjectParams: []
@@ -744,7 +744,7 @@ MonoBehaviour:
         stringParams:
         - 
         - Jump
-        byteData: 0000000000000000000001000000
+        byteData: 0100000000000000000000000000
         arrayParamSizes: 01000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmInt
