@@ -30,21 +30,8 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000
+    variableCategoryIDs: 
   events:
-  - DrawRope
-  - RespawnPlayer
-  - grappleToDisappear
-  - playerOutOfBounds
-  - startGrappleRotate
-  - endGrappleRotate
-  - StartMovement
-  - MidairMovement
-  - SwingMovement
-  - killPlayers
-  - StartKillPlayers
-  - StopKillPlayers
-  - playerIsGrappled
   - PHOTON / CLIENT STATE / AUTHENTICATED
   - PHOTON / CLIENT STATE / AUTHENTICATING
   - PHOTON / CLIENT STATE / CONNECTED TO GAMESERVER
@@ -88,4 +75,3 @@ MonoBehaviour:
   - PHOTON / ON REGION LIST RECEIVED
   - PHOTON / ON WEBRPC RESPONSE
   - PHOTON / ON PHOTON INSTANTIATE
-  - IsNotMine
