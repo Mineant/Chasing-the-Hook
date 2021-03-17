@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6160067826158639895}
   - component: {fileID: 4182500087666046340}
   - component: {fileID: 3611381430519296648}
+  - component: {fileID: 823564378099454835}
   m_Layer: 10
   m_Name: CannonBall
   m_TagString: Cannonball
@@ -1414,7 +1415,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -1431,10 +1432,10 @@ MonoBehaviour:
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
-    handleTriggerEnter: 0
+    handleTriggerEnter: 1
     handleTriggerExit: 0
     handleTriggerStay: 0
-    handleCollisionEnter: 0
+    handleCollisionEnter: 1
     handleCollisionExit: 0
     handleCollisionStay: 0
     handleParticleCollision: 0
@@ -1490,6 +1491,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 845409985, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 4273672954452747959}
+--- !u!114 &823564378099454835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5666504426860056166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 82786459, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TargetFSMs:
