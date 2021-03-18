@@ -1043,6 +1043,7 @@ GameObject:
   - component: {fileID: 8683420740141942210}
   - component: {fileID: 8683420740141941818}
   - component: {fileID: 8683420740141941823}
+  - component: {fileID: 6934198711046361802}
   m_Layer: 0
   m_Name: Player Multiplayer ver3
   m_TagString: Player
@@ -1669,7 +1670,7 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 010000
+        actionEnabled: 010001
         actionIsOpen: 000001
         actionStartIndex: 000000000900000026000000
         actionHashCodes: febdb4014cd14c010f974905
@@ -1927,7 +1928,7 @@ MonoBehaviour:
         - Setting loops to -1 will make the tween loop infinitely.
         - 
         - playerIsGrappled
-        byteData: 00000000010000000000000000000000000000000006000000000000000000000000000000
+        byteData: 00000000010000000000000000000000000000000006000000000000000000000007000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 07000000
@@ -15932,6 +15933,7 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 8683420740141942216}
   - {fileID: 8683420740141941818}
+  - {fileID: 6934198711046361802}
   sceneViewId: 3
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -16822,6 +16824,19 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 1
+--- !u!114 &6934198711046361802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8683420740141942282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35144820bcc25444bb8f0fd767d9423e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SmoothingDelay: 5
 --- !u!1 &8683420740141942283
 GameObject:
   m_ObjectHideFlags: 0
