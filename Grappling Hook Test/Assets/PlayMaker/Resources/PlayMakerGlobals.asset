@@ -75,6 +75,7 @@ MonoBehaviour:
   - PHOTON / ON REGION LIST RECEIVED
   - PHOTON / ON WEBRPC RESPONSE
   - PHOTON / ON PHOTON INSTANTIATE
+<<<<<<< HEAD
   - PlayerIsGrappled
   - StartRotate Pun
   - CtrlRotateArrow
@@ -103,3 +104,5 @@ MonoBehaviour:
   - CtrlPlayerIsGrappled
   - StartRotate
   - playerIsGrappled
+=======
+>>>>>>> 8f160ff6dc1dc649474b6310dca02dbd14b847b1
