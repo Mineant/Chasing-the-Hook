@@ -75,24 +75,21 @@ MonoBehaviour:
   - PHOTON / ON REGION LIST RECEIVED
   - PHOTON / ON WEBRPC RESPONSE
   - PHOTON / ON PHOTON INSTANTIATE
-<<<<<<< HEAD
-  - PlayerIsGrappled
+  - CheckCanStartGame
+  - playerIsGrappled
   - StartRotate Pun
   - CtrlRotateArrow
   - CtrlShootArrow
   - CtrlPullHook
   - CtrlBreakRope
-  - SwingMovement
-  - StartMovement
-  - grappleToDisappear
   - MidairMovement
-  - IsNotMine
-  - RespawnPlayer
-  - StopKillPlayers
-  - StartKillPlayers
+  - SwingMovement
   - Grapple Ground
+  - grappleToDisappear
+  - StartMovement
   - HookCooldown
   - CooldownFinish
+  - RespawnPlayer
   - FinishRespawn
   - RotateArrow
   - ShootArrow
@@ -102,7 +99,9 @@ MonoBehaviour:
   - BreakRope
   - CtrlRespawnPlayer
   - CtrlPlayerIsGrappled
+  - IsNotMine
+  - StartKillPlayers
+  - StopKillPlayers
   - StartRotate
-  - playerIsGrappled
-=======
->>>>>>> 8f160ff6dc1dc649474b6310dca02dbd14b847b1
+  - PlayerIsGrappled
+  - RcvPlayerIsGrappled
