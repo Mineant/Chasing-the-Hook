@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Multiplayer Test/Title Screen.unity
     guid: 7213bb707da044e46a40c7cf83a171ec
@@ -20,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Multiplayer Test/Multiplayer Test Level.unity
     guid: a117d3e2712c4d6488b55a2fe8e15f00
+  - enabled: 1
+    path: Assets/Scenes/lv Mineant/TUT 01.unity
+    guid: 7a8c79f11ae154b40a74cb88095f56a2
+  - enabled: 1
+    path: Assets/Scenes/lv Mineant/TUT 02.unity
+    guid: 299f12fb44c7c3c4f8fbec7e8ea19a57
   m_configObjects: {}
