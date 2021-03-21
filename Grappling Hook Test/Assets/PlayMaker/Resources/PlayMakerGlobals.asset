@@ -105,3 +105,6 @@ MonoBehaviour:
   - StartRotate
   - PlayerIsGrappled
   - RcvPlayerIsGrappled
+  - click
+  - restart
+  - return
