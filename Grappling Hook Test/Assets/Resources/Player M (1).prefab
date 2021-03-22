@@ -12130,7 +12130,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -12152,13 +12152,13 @@ MonoBehaviour:
     handleTriggerStay: 0
     handleCollisionEnter: 0
     handleCollisionExit: 0
-    handleCollisionStay: 0
+    handleCollisionStay: 1
     handleParticleCollision: 0
     handleControllerColliderHit: 0
     handleJointBreak: 0
     handleJointBreak2D: 0
     handleOnGUI: 0
-    handleFixedUpdate: 0
+    handleFixedUpdate: 1
     handleLateUpdate: 0
     handleApplicationEvents: 0
     handleUiEvents: 0
