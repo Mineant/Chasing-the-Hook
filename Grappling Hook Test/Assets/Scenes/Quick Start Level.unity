@@ -1112,7 +1112,7 @@ MonoBehaviour:
           0 = load the level name at element 0
         showInInspector: 1
         networkSync: 0
-        value: 1
+        value: 0
       - useVariable: 1
         name: numberOfPlayers
         tooltip: 

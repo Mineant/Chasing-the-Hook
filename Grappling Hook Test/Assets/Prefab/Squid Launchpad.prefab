@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &613879813211329734
+--- !u!1 &965338314995844421
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,57 +8,88 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 613879813211329723}
-  - component: {fileID: 613879813211329720}
-  - component: {fileID: 613879813211329721}
-  - component: {fileID: 613879813211329735}
-  - component: {fileID: 8857408514738097721}
-  - component: {fileID: 3375958789917293196}
-  - component: {fileID: 3910110205521859379}
-  - component: {fileID: 647975503483792640}
+  - component: {fileID: 965338314995844422}
   m_Layer: 0
-  m_Name: LanuchPad(Straight)
+  m_Name: Bouncy Squid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &613879813211329723
+--- !u!4 &965338314995844422
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 613879813211329734}
+  m_GameObject: {fileID: 965338314995844421}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.9, y: -12.52, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 613879813650209108}
-  - {fileID: 613879814655287389}
+  - {fileID: 6501131752441264247}
+  m_Father: {fileID: 4124646382221880102}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4124646382221880155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4124646382221880102}
+  - component: {fileID: 4124646382221880101}
+  - component: {fileID: 4124646382221880100}
+  - component: {fileID: 4124646382221880154}
+  - component: {fileID: 5427565864057434532}
+  - component: {fileID: 2260966279121814801}
+  - component: {fileID: 574984090564127918}
+  - component: {fileID: 4127357956081554077}
+  m_Layer: 0
+  m_Name: Squid Launchpad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4124646382221880102
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4124646382221880155}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.23, y: -12.52, z: -0.20000076}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4124646382922802889}
+  - {fileID: 965338314995844422}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &613879813211329720
+--- !u!65 &4124646382221880101
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 613879813211329734}
+  m_GameObject: {fileID: 4124646382221880155}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.468164, y: 1.5882225, z: 3.1750793}
-  m_Center: {x: -0.006001234, y: 0.29411125, z: 0.09641266}
---- !u!114 &613879813211329721
+  m_Size: {x: 3.2945576, y: 3.2464094, z: 3.1750793}
+  m_Center: {x: -0.027712822, y: 1.1232047, z: 0.09641266}
+--- !u!114 &4124646382221880100
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 613879813211329734}
+  m_GameObject: {fileID: 4124646382221880155}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
@@ -103,24 +134,25 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.CollisionEvent
         - HutongGames.PlayMaker.Actions.TriggerEvent
         - HutongGames.PlayMaker.Actions.TriggerEvent
         customNames:
         - 
-<<<<<<< HEAD
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000005000000
-        actionHashCodes: 9c5124009c512400
-=======
-        actionEnabled: 01
-        actionIsOpen: 00
-        actionStartIndex: 00000000
-        actionHashCodes: 9c512400
->>>>>>> parent of 6782bb8 (update level 1-6)
+        - 
+        actionEnabled: 000101
+        actionIsOpen: 000001
+        actionStartIndex: 00000000060000000b000000
+        actionHashCodes: beb331009c5124009c512400
         unityObjectParams: []
         fsmGameObjectParams:
+        - useVariable: 1
+          name: player
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
         - useVariable: 1
           name: player
           tooltip: 
@@ -134,6 +166,14 @@ MonoBehaviour:
           networkSync: 0
           value: {fileID: 0}
         fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
         - ownerOption: 0
           gameObject:
             useVariable: 0
@@ -168,12 +208,24 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
+          value: Player
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
           value: Cannonball
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
+        fsmFloatParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -183,15 +235,22 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - launch player
+        - launch player
         - launch ball
-        byteData: 0000000000000000
+        byteData: 000000000000000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000070000001200000017000000130000001400000007000000120000001700000013000000
+        paramDataType: 14000000070000001200000017000000130000000f00000014000000070000001200000017000000130000001400000007000000120000001700000013000000
         paramName:
         - gameObject
+        - collision
+        - collideTag
+        - sendEvent
+        - storeCollider
+        - storeForce
+        - gameObject
         - trigger
         - collideTag
         - sendEvent
@@ -201,8 +260,8 @@ MonoBehaviour:
         - collideTag
         - sendEvent
         - storeCollider
-        paramDataPos: 00000000000000000000000000000000000000000100000004000000010000000100000001000000
-        paramByteDataSize: 00000000040000000000000000000000000000000000000004000000000000000000000000000000
+        paramDataPos: 00000000000000000000000000000000000000000000000001000000040000000100000001000000010000000200000008000000020000000200000002000000
+        paramByteDataSize: 00000000040000000000000000000000000000000000000000000000040000000000000000000000000000000000000004000000000000000000000000000000
     - name: Play Animation
       description: 
       colorIndex: 0
@@ -227,24 +286,24 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.iTweenPunchPosition
+        - HutongGames.PlayMaker.Actions.iTweenPunchScale
         customNames:
         - 
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 600c1604
+        actionHashCodes: 7a535f05
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
         - ownerOption: 1
           gameObject:
-            useVariable: 0
-            name: 
+            useVariable: 1
+            name: squid
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 613879814655287385}
+            value: {fileID: 965338314995844421}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -282,13 +341,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 0
           name: 
           tooltip: 
@@ -309,12 +368,12 @@ MonoBehaviour:
         stringParams:
         - 
         - FINISHED
-        byteData: 000000000100000000000000
+        byteData: 00000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000120000001c0000000f0000000f0000000700000007000000070000001700000017000000110000001100000011000000
+        paramDataType: 14000000120000001c0000000f0000000f000000070000001700000017000000110000001100000011000000
         paramName:
         - gameObject
         - id
@@ -322,15 +381,13 @@ MonoBehaviour:
         - time
         - delay
         - loopType
-        - space
-        - axis
         - startEvent
         - finishEvent
         - realTime
         - stopOnExit
         - loopDontFinish
-        paramDataPos: 00000000000000000000000000000000010000000000000004000000080000000000000001000000000000000100000002000000
-        paramByteDataSize: 00000000000000000000000000000000000000000400000004000000040000000000000000000000000000000000000000000000
+        paramDataPos: 0000000000000000000000000000000001000000000000000000000001000000000000000100000002000000
+        paramByteDataSize: 0000000000000000000000000000000000000000040000000000000000000000000000000000000000000000
     - name: Wait
       description: 
       colorIndex: 0
@@ -382,7 +439,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.2
+          value: 0.05
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -1329,6 +1386,12 @@ MonoBehaviour:
         showInInspector: 0
         networkSync: 0
         value: {fileID: 0}
+      - useVariable: 1
+        name: squid
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 965338314995844421}
       objectVariables: []
       materialVariables: []
       textureVariables: []
@@ -1336,7 +1399,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -1347,7 +1410,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -1364,9 +1427,9 @@ MonoBehaviour:
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
-    handleTriggerEnter: 1
+    handleTriggerEnter: 0
     handleTriggerExit: 0
-    handleTriggerStay: 1
+    handleTriggerStay: 0
     handleCollisionEnter: 0
     handleCollisionExit: 0
     handleCollisionStay: 0
@@ -1375,7 +1438,7 @@ MonoBehaviour:
     handleJointBreak: 0
     handleJointBreak2D: 0
     handleOnGUI: 0
-    handleFixedUpdate: 1
+    handleFixedUpdate: 0
     handleLateUpdate: 0
     handleApplicationEvents: 0
     handleUiEvents: 0
@@ -1384,13 +1447,13 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 1
---- !u!114 &613879813211329735
+--- !u!114 &4124646382221880154
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 613879813211329734}
+  m_GameObject: {fileID: 4124646382221880155}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0b5eb03fc441b4d8fa5e2b3d1547d7d5, type: 3}
@@ -1428,13 +1491,13 @@ MonoBehaviour:
   preFillAudioClipList: []
   preFillByteList: 
   preFillSpriteList: []
---- !u!54 &8857408514738097721
+--- !u!54 &5427565864057434532
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 613879813211329734}
+  m_GameObject: {fileID: 4124646382221880155}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -1444,49 +1507,49 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3375958789917293196
+--- !u!114 &2260966279121814801
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 613879813211329734}
+  m_GameObject: {fileID: 4124646382221880155}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 82786459, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TargetFSMs:
-  - {fileID: 613879813211329721}
---- !u!114 &3910110205521859379
+  - {fileID: 4124646382221880100}
+--- !u!114 &574984090564127918
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 613879813211329734}
+  m_GameObject: {fileID: 4124646382221880155}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -104615663, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TargetFSMs:
-  - {fileID: 613879813211329721}
---- !u!114 &647975503483792640
+  - {fileID: 4124646382221880100}
+--- !u!114 &4127357956081554077
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 613879813211329734}
+  m_GameObject: {fileID: 4124646382221880155}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -664232604, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TargetFSMs:
-  - {fileID: 613879813211329721}
---- !u!1 &613879813650209109
+  - {fileID: 4124646382221880100}
+--- !u!1 &4124646382922802888
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1494,10 +1557,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 613879813650209108}
-  - component: {fileID: 613879813650209097}
-  - component: {fileID: 613879813650209110}
-  - component: {fileID: 613879813650209111}
+  - component: {fileID: 4124646382922802889}
+  - component: {fileID: 4124646382922802900}
+  - component: {fileID: 4124646382922802891}
+  - component: {fileID: 4124646382922802890}
   m_Layer: 0
   m_Name: Base
   m_TagString: Untagged
@@ -1505,36 +1568,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &613879813650209108
+--- !u!4 &4124646382922802889
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 613879813650209109}
+  m_GameObject: {fileID: 4124646382922802888}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3.4326, y: 0.73807764, z: 3.4326}
   m_Children: []
-  m_Father: {fileID: 613879813211329723}
+  m_Father: {fileID: 4124646382221880102}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &613879813650209097
+--- !u!33 &4124646382922802900
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 613879813650209109}
+  m_GameObject: {fileID: 4124646382922802888}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &613879813650209110
+--- !u!23 &4124646382922802891
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 613879813650209109}
-  m_Enabled: 1
+  m_GameObject: {fileID: 4124646382922802888}
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1566,20 +1629,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &613879813650209111
+--- !u!65 &4124646382922802890
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 613879813650209109}
+  m_GameObject: {fileID: 4124646382922802888}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &613879814655287385
+  m_Size: {x: 0.5321353, y: 3.507171, z: 0.99999976}
+  m_Center: {x: -0.0125871785, y: 1.2535851, z: 0}
+--- !u!1 &5869167020040676045
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1587,47 +1650,45 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 613879814655287389}
-  - component: {fileID: 613879814655287386}
-  - component: {fileID: 613879814655287387}
-  - component: {fileID: 613879814655287384}
-  - component: {fileID: 2150487714518856510}
+  - component: {fileID: 6501131752441264247}
+  - component: {fileID: 7896907427097425874}
+  - component: {fileID: 5364776986346111768}
   m_Layer: 0
-  m_Name: Pad
+  m_Name: squid model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &613879814655287389
+--- !u!4 &6501131752441264247
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 613879814655287385}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.6, z: 0}
-  m_LocalScale: {x: 3.4326, y: 0.17065093, z: 3.4326}
+  m_GameObject: {fileID: 5869167020040676045}
+  m_LocalRotation: {x: -0.5000007, y: 0.4999993, z: 0.4999993, w: 0.5000007}
+  m_LocalPosition: {x: 0, y: -0.14999962, z: 0}
+  m_LocalScale: {x: 0.59285, y: 0.59285, z: 0.59285}
   m_Children: []
-  m_Father: {fileID: 613879813211329723}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &613879814655287386
+  m_Father: {fileID: 965338314995844422}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 90.00001}
+--- !u!33 &7896907427097425874
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 613879814655287385}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &613879814655287387
+  m_GameObject: {fileID: 5869167020040676045}
+  m_Mesh: {fileID: -3640009273208903192, guid: ce26b8c552a1c8041ad7611a810491a9, type: 3}
+--- !u!23 &5364776986346111768
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 613879814655287385}
+  m_GameObject: {fileID: 5869167020040676045}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -1639,7 +1700,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 532e11ef7132e6540b4ee5c85cc784d2, type: 2}
+  - {fileID: 2100000, guid: b403a12075ab48046874ad856742a021, type: 2}
+  - {fileID: 2100000, guid: 9e3915b4b81e0c344b68234b7ee831d7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1660,32 +1722,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &613879814655287384
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 613879814655287385}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &2150487714518856510
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 613879814655287385}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
