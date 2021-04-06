@@ -9,7 +9,7 @@ namespace UnityStandardAssets.Effects
         private float m_Rnd;
         private bool m_Burning = true;
         private Light m_Light;
-        public int intensityFactor = 10;
+        public float intensityFactor = 10;
         public int minIntensity = 3;
 
 

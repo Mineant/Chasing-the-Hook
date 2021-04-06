@@ -27,9 +27,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Multiplayer Test/Empty Scene.unity
     guid: f30d135cbfa571f41ab9d3bb1b1608f9
   - enabled: 0
-    path: Assets/Scenes/Multiplayer Test/Settings Scene.unity
+    path: 
     guid: 43a6f423a921912448f31e191fdd3fc5
   - enabled: 1
     path: Assets/Scenes/Multiplayer Test/LMT tut02.unity
     guid: 41ee8aa1bcd427342a584aab076d9843
+  - enabled: 1
+    path: Assets/Scenes/lv Steve/level 1-5.unity
+    guid: 933b99a42cbc0a24b83f1368e7cca3f7
   m_configObjects: {}

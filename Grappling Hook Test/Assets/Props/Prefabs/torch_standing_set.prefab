@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 335e0b97e870af2439eeb68885267b1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intensityFactor: 2
+  intensityFactor: 0.5
   minIntensity: 3
 --- !u!1001 &543783378558150990
 PrefabInstance:

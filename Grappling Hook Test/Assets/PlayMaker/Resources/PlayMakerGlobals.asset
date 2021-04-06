@@ -16,25 +16,7 @@ MonoBehaviour:
     floatVariables: []
     intVariables: []
     boolVariables: []
-    stringVariables:
-    - useVariable: 1
-      name: Local Multiplayer data file path
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: Local_Multiplayer_data.es3
-    - useVariable: 1
-      name: Maps_Array_Key
-      tooltip: LM path
-      showInInspector: 0
-      networkSync: 0
-      value: Maps_Array
-    - useVariable: 1
-      name: Settings Scene Name
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: Settings Scene
+    stringVariables: []
     vector2Variables: []
     vector3Variables: []
     colorVariables: []
@@ -48,7 +30,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000
+    variableCategoryIDs: 
   events:
   - PHOTON / CLIENT STATE / AUTHENTICATED
   - PHOTON / CLIENT STATE / AUTHENTICATING
@@ -93,50 +75,3 @@ MonoBehaviour:
   - PHOTON / ON REGION LIST RECEIVED
   - PHOTON / ON WEBRPC RESPONSE
   - PHOTON / ON PHOTON INSTANTIATE
-  - CtrlRespawnPlayer
-  - FireCannon
-  - CtrlRotateArrow
-  - CtrlShootArrow
-  - CtrlPullHook
-  - CtrlBreakRope
-  - CtrlgrappleToDisappear
-  - RcvPlayerIsGrappled
-  - Add Points
-  - CheckCanStartGame
-  - RespawnPlayer
-  - ShootArrow
-  - PullHook
-  - BreakRope
-  - grappleToDisappear
-  - RotateArrow
-  - PlayerIsGrappled
-  - CtrlPlayerIsGrappled
-  - FireCannonPost
-  - Enable Player UI
-  - FinishRespawn
-  - StartMovement
-  - MidairMovement
-  - SwingMovement
-  - IsNotMine
-  - playerIsGrappled
-  - Grapple Ground
-  - HookCooldown
-  - CooldownFinish
-  - CtrlHookCooldown
-  - CtrlCooldownFinish
-  - StartKillPlayers
-  - StopKillPlayers
-  - ActivateTimer
-  - Save Data
-  - return
-  - restart
-  - ConnectOfflineServer
-  - click
-  - saveData
-  - End Level
-  - DEMO / UI / ON VALUE CHANGED
-  - DEMO / UI / PING REFRESH
-  - DEMO / RPC /FOR ALL TARGETS
-  - DEMO / RPC / TO NEXT
-  - StartRotate Pun
-  - StartRotate
