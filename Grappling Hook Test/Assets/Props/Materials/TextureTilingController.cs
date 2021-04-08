@@ -8,6 +8,9 @@ public class TextureTilingController : MonoBehaviour {
 	// We will grab it from the meshRenderer
 	public Texture texture;
 	public float textureToMeshZ = 2f; // Use this to contrain texture to a certain size
+	public int element = 0;
+	//public bool test = true;
+	public int updateXZ = 0;
 
 	Vector3 prevScale = Vector3.one;
 	float prevTextureToMeshZ = -1f;
@@ -25,10 +28,10 @@ public class TextureTilingController : MonoBehaviour {
 		// If something has changed
 		if(gameObject.transform.lossyScale != prevScale || !Mathf.Approximately(this.textureToMeshZ, prevTextureToMeshZ))
 			this.UpdateTiling();
-		
+
 		// Maintain previous state variables
-		this.prevScale = gameObject.transform.lossyScale;
-		this.prevTextureToMeshZ = this.textureToMeshZ;
+			this.prevScale = gameObject.transform.lossyScale;
+			this.prevTextureToMeshZ = this.textureToMeshZ;
 	}
 
 	[ContextMenu("UpdateTiling")]
@@ -41,6 +44,16 @@ public class TextureTilingController : MonoBehaviour {
 		// Figure out texture-to-mesh width based on user set texture-to-mesh height
 		float textureToMeshX = ((float)this.texture.width/this.texture.height)*this.textureToMeshZ;
 
-		gameObject.GetComponent<Renderer>().material.mainTextureScale = new Vector2(planeSizeX*gameObject.transform.lossyScale.x/textureToMeshX, planeSizeZ*gameObject.transform.lossyScale.z/textureToMeshZ);
+		if (updateXZ == 0)
+		{
+			gameObject.GetComponent<Renderer>().materials[element].mainTextureScale = new Vector2(planeSizeX * gameObject.transform.lossyScale.x / textureToMeshX, planeSizeZ * gameObject.transform.lossyScale.z / textureToMeshZ);
+		}
+		else if (updateXZ == 1)
+		{
+			gameObject.GetComponent<Renderer>().materials[element].mainTextureScale = new Vector2(planeSizeX * gameObject.transform.lossyScale.x / textureToMeshX, this.texture.height);
+		} else if (updateXZ == 2)
+        {
+			gameObject.GetComponent<Renderer>().materials[element].mainTextureScale = new Vector2(this.texture.width, planeSizeZ * gameObject.transform.lossyScale.z / textureToMeshZ);
+		}
 	}
 }
