@@ -35,4 +35,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/lv Steve/level 1-5.unity
     guid: 933b99a42cbc0a24b83f1368e7cca3f7
+  - enabled: 1
+    path: Assets/Scenes/lv ABC/summitlvl1.unity
+    guid: c93c6f2fb17d2dc4a94b43ca04c3f78a
+  - enabled: 1
+    path: Assets/Scenes/lv ABC/summitlvl2.unity
+    guid: 9cbc80dbd6d6b0c4d8bf8f8c291bf2c8
+  - enabled: 1
+    path: Assets/Scenes/lv ABC/summitlvl3.unity
+    guid: b060049970e0a3445bce967edfe6c2cd
+  - enabled: 1
+    path: Assets/Scenes/lv ABC/junglelvl3.unity
+    guid: e746e9616b4388e449760f2f1eca4742
+  - enabled: 1
+    path: Assets/Scenes/lv ABC/junglelvl2.unity
+    guid: 51a30fdd7607b904a948b72374a140a5
   m_configObjects: {}
