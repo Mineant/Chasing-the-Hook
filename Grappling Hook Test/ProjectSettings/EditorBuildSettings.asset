@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/lv ABC/junglelvl2.unity
     guid: 51a30fdd7607b904a948b72374a140a5
+  - enabled: 1
+    path: Assets/Scenes/lv ABC/junglelvl1.unity
+    guid: 5922d5da382efb849bbef39a5deb8596
   m_configObjects: {}
