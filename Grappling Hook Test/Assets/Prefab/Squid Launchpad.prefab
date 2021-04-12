@@ -47,6 +47,7 @@ GameObject:
   - component: {fileID: 2260966279121814801}
   - component: {fileID: 574984090564127918}
   - component: {fileID: 4127357956081554077}
+  - component: {fileID: 2522775689456592310}
   m_Layer: 0
   m_Name: Squid Launchpad
   m_TagString: Untagged
@@ -1410,7 +1411,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -1427,10 +1428,10 @@ MonoBehaviour:
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
-    handleTriggerEnter: 0
+    handleTriggerEnter: 1
     handleTriggerExit: 0
-    handleTriggerStay: 0
-    handleCollisionEnter: 0
+    handleTriggerStay: 1
+    handleCollisionEnter: 1
     handleCollisionExit: 0
     handleCollisionStay: 0
     handleParticleCollision: 0
@@ -1438,7 +1439,7 @@ MonoBehaviour:
     handleJointBreak: 0
     handleJointBreak2D: 0
     handleOnGUI: 0
-    handleFixedUpdate: 0
+    handleFixedUpdate: 1
     handleLateUpdate: 0
     handleApplicationEvents: 0
     handleUiEvents: 0
@@ -1545,6 +1546,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -664232604, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 4124646382221880100}
+--- !u!114 &2522775689456592310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4124646382221880155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 845409985, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TargetFSMs:

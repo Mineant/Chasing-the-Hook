@@ -889,7 +889,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -1334,22 +1334,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ec548b1d402af1c429b55218ab826ec1,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.0000029294772
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ec548b1d402af1c429b55218ab826ec1,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -6.123252e-17
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ec548b1d402af1c429b55218ab826ec1,
-        type: 3}
-      propertyPath: m_LocalRotation.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ec548b1d402af1c429b55218ab826ec1,
         type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -6.123269e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec548b1d402af1c429b55218ab826ec1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000017881393
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec548b1d402af1c429b55218ab826ec1,
+        type: 3}
       propertyPath: m_LocalRotation.z
-      value: 6.123252e-17
+      value: -6.1232336e-17
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ec548b1d402af1c429b55218ab826ec1,
         type: 3}
@@ -1359,7 +1359,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ec548b1d402af1c429b55218ab826ec1,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -360
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ec548b1d402af1c429b55218ab826ec1,
         type: 3}

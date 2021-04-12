@@ -9428,7 +9428,7 @@ MonoBehaviour:
     handleCollisionEnter: 0
     handleCollisionExit: 0
     handleCollisionStay: 0
-    handleParticleCollision: 1
+    handleParticleCollision: 0
     handleControllerColliderHit: 0
     handleJointBreak: 0
     handleJointBreak2D: 0

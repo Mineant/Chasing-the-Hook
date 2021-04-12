@@ -1112,11 +1112,11 @@ MonoBehaviour:
           0 = load the level name at element 0
         showInInspector: 1
         networkSync: 0
-        value: 0
+        value: 9
       - useVariable: 1
         name: numberOfPlayers
         tooltip: 
-        showInInspector: 0
+        showInInspector: 1
         networkSync: 0
         value: 2
       boolVariables: []
@@ -1151,9 +1151,14 @@ MonoBehaviour:
         stringValues:
         - junglelvl3
         - Local Multiplayer Test
-        - 
-        - 
-        - 
+        - level 1-1
+        - level 1-2
+        - level 1-3
+        - level 1-4
+        - level 1-5
+        - level 1-6
+        - level 1-7
+        - level 1-8
         vector4Values: []
         objectReferences: []
       enumVariables: []

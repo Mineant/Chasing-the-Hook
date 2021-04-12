@@ -47,6 +47,7 @@ GameObject:
   - component: {fileID: 5495694076365459456}
   - component: {fileID: 5495694076365459457}
   - component: {fileID: 5495694076365459462}
+  - component: {fileID: 8992261772389865670}
   m_Layer: 9
   m_Name: Plane (2)
   m_TagString: Untagged
@@ -421,7 +422,21 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &8992261772389865670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5495694076365459460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 82786459, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 5495694076365459462}
 --- !u!1 &5495694076983932582
 GameObject:
   m_ObjectHideFlags: 0
@@ -435,6 +450,7 @@ GameObject:
   - component: {fileID: 5495694076983932578}
   - component: {fileID: 5495694076983932579}
   - component: {fileID: 5495694076983932576}
+  - component: {fileID: 6992265585906450771}
   m_Layer: 9
   m_Name: Plane (1)
   m_TagString: Untagged
@@ -809,7 +825,21 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &6992265585906450771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5495694076983932582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 82786459, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 5495694076983932576}
 --- !u!1 &5495694077276244288
 GameObject:
   m_ObjectHideFlags: 0
@@ -823,6 +853,7 @@ GameObject:
   - component: {fileID: 5495694077276244300}
   - component: {fileID: 5495694077276244301}
   - component: {fileID: 5495694077276244290}
+  - component: {fileID: 1658323926276687585}
   m_Layer: 9
   m_Name: Plane
   m_TagString: Untagged
@@ -1161,7 +1192,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -1178,7 +1209,7 @@ MonoBehaviour:
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
-    handleTriggerEnter: 0
+    handleTriggerEnter: 1
     handleTriggerExit: 0
     handleTriggerStay: 0
     handleCollisionEnter: 0
@@ -1197,7 +1228,21 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &1658323926276687585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5495694077276244288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 82786459, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 5495694077276244290}
 --- !u!1 &5495694077645133293
 GameObject:
   m_ObjectHideFlags: 0
@@ -1211,6 +1256,7 @@ GameObject:
   - component: {fileID: 5495694077645133289}
   - component: {fileID: 5495694077645133294}
   - component: {fileID: 5495694077645133295}
+  - component: {fileID: 8295623990112867128}
   m_Layer: 9
   m_Name: Plane (3)
   m_TagString: Untagged
@@ -1585,4 +1631,18 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &8295623990112867128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5495694077645133293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 82786459, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 5495694077645133295}
