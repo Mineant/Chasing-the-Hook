@@ -74,4 +74,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/lv Steve/level 1-8.unity
     guid: f0054cb88a421cc46a2181215ec91d0f
+  - enabled: 1
+    path: Assets/Scenes/lv ABC/villagelvl2.unity
+    guid: c51fdb41523fda84da4bbf2a28536803
+  - enabled: 1
+    path: Assets/Scenes/lv ABC/villagelvl1.unity
+    guid: 331bdef8dd0bbfe40b4b45fc2e9d6ec6
   m_configObjects: {}
