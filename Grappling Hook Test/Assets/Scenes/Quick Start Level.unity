@@ -1149,16 +1149,7 @@ MonoBehaviour:
         intValues: 
         boolValues: 
         stringValues:
-        - villagelvl2
-        - Local Multiplayer Test
-        - level 1-1
-        - level 1-2
-        - level 1-3
-        - level 1-4
-        - level 1-5
-        - level 1-6
-        - level 1-7
-        - level 1-8
+        - junglelvl3
         vector4Values: []
         objectReferences: []
       enumVariables: []
